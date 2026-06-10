@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "BioNet: Bio-inspired object detection under visual interference"
+message: "If you use this repository, please cite the associated manuscript after publication."
+type: software
+authors:
+  - family-names: Xu
+    given-names: Junxiu
+  - family-names: Guo
+    given-names: Zhen
+  - family-names: Xia
+    given-names: Hualin
+  - family-names: Xu
+    given-names: Kun
+  - family-names: Bai
+    given-names: Xiuxiu
+year: 2026
+license: AGPL-3.0-only
+repository-code: "TBD"
