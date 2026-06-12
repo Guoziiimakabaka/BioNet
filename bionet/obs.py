@@ -116,8 +116,8 @@ class OlfactoryBulbInspiredNet(nn.Module):
         x_glomeruli = self.glomerulus_layer(x)
         channels = x.shape[1]
         half_channels = channels // 2
-        x1 = x_glomeruli[:, :half_channels, :, :]
-        x2 = x_glomeruli[:, half_channels:, :, :]
+        x1 = x_glomeruli[:, half_channels:, :, :]
+        x2 = x_glomeruli[:, :half_channels, :, :]
 
         x_processed_features1 = self.tufted_complex(x1)
         x_processed_features2 = self.mitral_complex(x2)
